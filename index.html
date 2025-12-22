@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Presento Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Presento
+  * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Portfolio</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#tabs">Experience</a></li>
+          <li><a href="#services">Certifications</a></li>
+          
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 data-aos="fade-up" data-aos-delay="100">Shraddha Sangave</h2>
+            <p data-aos="fade-up" data-aos-delay="200">A Data Analyst Commited to Excellence</p>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="Shraddha_Sangave_Resume_DA (New).pdf" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Download Resume</span></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a href="tel:+91-9527269972"><img src="assets\img\Contact.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.linkedin.com/in/shraddhasangave/"><img src="assets/img/download.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://github.com/shraddhasangave99"><img src="assets/img/github2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="mailto:shraddhasangave114@gmail.com"><img src="assets/img/gmail.png" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section section-bg dark-background">
+
+      <div class="container position-relative">
+
+        <div class="row gy-5">
+
+          <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+            <h3>Data Analyst</h3>
+            <p>
+              Hello, I am Shraddha, a Data Analyst with 2.5+ years of experience turning data into clear insights, automated solutions, and measurable business outcomes.
+            </p>
+                          <p>I work with Excel, SQL, Python, Power BI, and Tableau to transform raw datasets into dashboards, reports, and models that improve decision-making and accelerate growth. My strengths lie in data cleaning, performance analysis, visualization, forecasting, and process optimization.</p>
+              <p>With an engineering mindset and a passion for analytics, I focus on creating solutions that are accurate, efficient, and business-focused. I am driven by challenges and excited to contribute my skills to teams that value data-driven impact.</p>
+            <a href="#" class="about-btn align-self-center align-self-xl-start"><span>About me</span> <i class="bi bi-chevron-right"></i></a>
+          </div>
+
+          <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+
+              <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="https://github.com/shraddhasangave99/Accenture-Social_Buzz-Data_Analysis/assets/153710836/e4449cf5-6276-48ec-b90b-97eb478188d8">
+                <h5>Power BI</h5>
+                <p>Data Import and Transformation, Data Modelling and Analysis, Visualization, Dashboard Creation, and Integration with Ext. Source</p>
+              </div><!-- Icon-Box -->
+
+           <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="https://github.com/shraddhasangave99/Accenture-Social_Buzz-Data_Analysis/assets/153710836/9c45601c-f00c-4214-a922-cbb612c1161c">
+                <h5>Excel</h5>
+                <p>Data Cleaning, Pivot Tables, Power Query, Visualization, VBA & Macros, Statistical Analysis, and Dashboards</p>
+              </div><!-- Icon-Box -->
+
+              <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="https://github.com/shraddhasangave99/Accenture-Social_Buzz-Data_Analysis/assets/153710836/56e0b5fe-72fe-4d3c-a6ad-57b1c433595d">
+                <h5>SQL</h5>
+                <p>DQL, Stored Procedures, Window Functions, CTEs, Views, Data Analysis, Query Performance, and Optimization</p>
+              </div><!-- Icon-Box -->
+
+              <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="https://github.com/shraddhasangave99/Accenture-Social_Buzz-Data_Analysis/assets/153710836/b93ad2db-ea3b-4ee6-b5ca-62403dcb952a"> 
+                <h5>Tableau</h5>
+                <p>Data Modelling, Parameters, Calculated Field, Table Calculations, LODs, and Dashboards</p>
+              </div><!-- Icon-Box -->
+
+              <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="https://github.com/shraddhasangave99/Accenture-Social_Buzz-Data_Analysis/assets/153710836/7680377c-f7d8-4588-8d80-c265be13acbe">
+                <h5>Python</h5>
+                <p>Data Structures & Algorithms, NumPy, Pandas, Matplotlib, Regression, Statistical Analysis, and Hypothesis Testing</p>
+              </div><!-- Icon-Box -->
+
+              
+              <div class="col-md-6 icon-box position-relative">
+                <img width="30" src="C:\Users\hp\Downloads\Presento\Presento\assets\img\snowflake-color.png">
+                <h5>Snowflake</h5>
+                <p>Warehousing, Dynamic Tables, Query Performance Tuning, Stages, Snowpipes, Time Travel</p>
+              </div><!-- Icon-Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper  align-items-center">
+            <div class="swiper-slide"><a href="https://www.hackerrank.com/profile/shraddhasangave1"><img src="assets/img/SQL Badge 1.jfif" class="img-fluid" alt=""></div></a>
+            <div class="swiper-slide"><a href="https://leetcode.com/u/shrad_ss/"><img src="assets/img/Introduction_to_Pandas_Badge.png" class="img-fluid" alt=""></div></a>
+            <div class="swiper-slide"><a href="https://leetcode.com/u/shrad_ss/"><img src="assets/img/Top_SQL_50.png" class="img-fluid" alt=""></div></a>
+            </div>
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+<!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>You can have a look at my diverse projects, which span multiple domains and employ various tools.</p>
+<style>
+  .italic-color {
+    color: blue;
+    font-style: italic;
+  }
+</style>
+
+<p class="italic-color">(Hover and tap the link icon to learn more about each project.)</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-Excel">Excel</li>
+            <li data-filter=".filter-PowerBI">Power BI</li>
+            <li data-filter=".filter-SQL">SQL</li>
+            <li data-filter=".filter-Tableau">Tableau</li>
+            <li data-filter=".filter-Python">Python</li>
+
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Excel filter-SQL">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\AdavancedAnalyticsSQL.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Excel, SQL</h4>
+                  <p>Advanced Business Data Analytics</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\AdavancedAnalyticsSQL.jpeg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/Advanced-Data-Analytics-using-SQL" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Excel filter-PowerBI filter-SQL filter-Tableau">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\E-comm.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Excel, Power BI, SQL, Tableau</h4>
+                  <p>E-commerce Analytics</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\E-comm.jpg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/E-commerce_Analytics" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Python filter-Excel">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\web-scraping.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Python, Excel</h4>
+                  <p>Amazon Web Scraping</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\web-scraping.jpg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/Amazon_Web_Scraping" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-SQL filter-Tableau">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Corona Image.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SQL, Tableau</h4>
+                  <p>Covid-19 Data Analytics</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Corona Image.jpg"  data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/Covid-19_Data-Analysis" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Excel filter-PowerBI">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Electric-Vechicle_github1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Excel, Power BI</h4>
+                  <p>Electric Vehicle Analytics</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Electric-Vechicle_github1.jpg"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/Electric_Vehicle_Analysis" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Excel filter-PowerBI filter-SQL filter-Tableau">
+              <div class="portfolio-content h-100">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\BankAnalysis.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Excel, Power BI, SQL, Tableau</h4>
+                  <p>Bank Analytics</p>
+                  <a href="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\BankAnalysis.jpeg"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/shraddhasangave99/Bank_Analytics" title="View GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs section">
+<div class="container section-title" data-aos="fade-up">
+        <h2>Experience</h2>
+        <style>
+  .italic-color {
+    color: blue;
+    font-style: italic;
+  }
+</style>
+
+<p class="italic-color">(Select an experience to explore the role in depth.)</p>
+      </div><!-- End Section Title -->
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-lg-4">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
+              <i class="bi bi-binoculars"></i>
+              <h4 class="d-none d-lg-block">Data Analyst - Emotive Corp, Remote	(08/2024–10/2025)</h4>
+            </a>
+          </li>
+          <li class="nav-item col-lg-4">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
+              <i class="bi bi-box-seam"></i>
+              <h4 class="d-none d-lg-block">Data Analyst Intern - AI Variant, Remote (09/2023–03/2024)</h4>
+            </a>
+          </li>
+          <li class="nav-item col-lg-4">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
+              <i class="bi bi-brightness-high"></i>
+              <h4 class="d-none d-lg-block">Graduate Apprentice Trainee - MSEDCL (10/2021–10/2022)</h4>
+            </a>
+          </li>
+          
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="tabs-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Data Analyst | Driving Insights & Optimization| Excel, SQL, Python & Power BI </h3>
+                
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>
+                    <spab>Built targeting frameworks for over 10,000 Amazon listings and eBay listings in UK, US, and EU markets using Excel pivot tables, dynamic formulas, Python, VBA, and Power BI, boosting search visibility by 28% and monthly sales by 22%.</spab>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> <span>Developed AI-assisted vehicle fitment models using Python scripts integrated with Excel and Power BI, increasing product visibility by 35% and enhancing customer satisfaction.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Automated QA processes using advanced VBA macros within Excel and Power BI dashboards, reducing listing errors by 38% and enabling real-time supplier updates.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Delivered deep-dive performance analyses by querying multi-market sales, pricing, and competitor data with SQL, improving data accuracy by 30% and accelerating campaign reporting for UK, US, and EU markets.</span></li>
+                </ul>
+              
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\exp1.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="tabs-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Data Analyst Intern | Comprehensive Data Solutions | Excel, Power BI, Tableau & SQL</h3>
+                <p>
+                  I worked as a Data Analyst, delivering end-to-end data solutions using Excel, SQL, Power BI, and Tableau. 
+                  I transformed raw datasets into meaningful insights and created dashboards that supported smarter decision making.
+                </p>
+                <ul>
+                  <li><i class="bi bi-puzzle-fill"></i> <span>Applied MS Excel for data analysis, including pivot tables, visualizations, and statistical analysis, enhancing data insights by 30%.</span></li>
+                  <li><i class="bi bi-puzzle-fill"></i> <span>Implemented MySQL for querying, stored procedures, and window functions, improving data extraction efficiency by 15%.</span></li>
+                  <li><i class="bi bi-puzzle-fill"></i> <span>Designed insightful dashboards and reports using Power BI, leading to a 20% increase in data-driven decision making.</span></li>
+                  <li><i class="bi bi-puzzle-fill"></i> <span>Elevated data visualization by creating advanced Tableau dashboards, boosting data interpretation efficiency by 25%.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\working-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="tabs-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Graduate Apprentice Trainee | Energy Analysis and Optimization | Excel </h3>
+                <p>I analyzed large-scale energy consumption data to drive strategic and data-backed decision making improvements. 
+                  I collaborated with senior management by presenting actionable insights, enabling smarter decisions and significant operational gains.
+                </p>
+                <ul>
+                  <li><i class="bi bi-chevron-double-right"></i> <span>Investigated MSEDCL energy consumption data, extracting insights that influenced strategic actions, improved decision making by 20%.</span></li>
+                  <li><i class="bi bi-chevron-double-right"></i> <span>Communicated findings and recommendations to senior management, resulting in 24% increase in smarter decision making.</span></li>
+                  <li><i class="bi bi-chevron-double-right"></i> <span>Attained over 37% savings on electricity bills for consumers by providing cost estimates for shifting to solar energy.</span></li>
+                  <li><i class="bi bi-chevron-double-right"></i> <span>Boosted operational efficiency by 18% through initiatives such as the Anti-theft drive, Meter Shifting, and Faulty Meter Replacement.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="tabs-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Tabs Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section section-bg dark-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certifications</h2>
+        <p>Backed by professional certifications that validate my skills and continuous growth in modern data analytics</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Coursera-Logo_600x600.svg.png" alt="Coursera Logo" style="width:40px; height:40px; object-fit:contain; margin-right:15px;">
+
+              <div>
+                <h4 class="title">Coursera</h4>
+                <p>Harnessing the Power of Data with Power BI</p>
+<a href="https://www.coursera.org/account/accomplishments/verify/TYPHMT7ERH4X" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Hackerrank.jpg" alt="Coursera Logo" style="width:40px; height:40px; object-fit:contain; margin-right:15px;">
+
+              <div>
+                <h4 class="title">HackerRank</h4>
+                <p>HackerRank SQL Certification(Advanced, Intermediate, Basic)</p>
+<a href="https://www.hackerrank.com/certificates/044e948d641a" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\AIVar.jpg" alt="Coursera Logo" style="width:50px; height:50px; object-fit:contain; margin-right:15px;">
+              <div>
+                <h4 class="title">AI Variant</h4>
+                <p>Data Analyst Internship</p>
+<a href="https://drive.google.com/file/d/14DndFaqCFPTN__ySiI9ryzpQ0bu_jgDx/view?usp=drive_link" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\Coursera-Logo_600x600.svg.png" alt="Coursera Logo" style="width:40px; height:40px; object-fit:contain; margin-right:15px;">
+              <div>
+                <h4 class="title">Coursera</h4>
+                <p>Python Data Analytics</p>
+<a href="https://www.coursera.org/account/accomplishments/verify/FB85Q345KZT5" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\portfolio\ExcelR.jpg" alt="Coursera Logo" style="width:40px; height:40px; object-fit:contain; margin-right:15px;">
+              <div>
+                <h4 class="title">ExcelR</h4>
+                <p>Data Analyst Certification</p>
+                            
+<a href="https://drive.google.com/file/d/1w7fdjFaaoxNA0tnTjBuaIZabY-Fcp19o/view?usp=drive_link" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex position-relative h-100">
+              <img src="C:\Users\hp\Downloads\Presento\Presento\assets\img\nasscom.png" alt="Coursera Logo" style="width:40px; height:40px; object-fit:contain; margin-right:15px;">
+              <div>
+                <h4 class="title">Nasscom</h4>
+                <p>Certificate Program in Data Analyst</p>
+                            
+<a href="https://drive.google.com/file/d/1LerOzITGKjfeHF6mnUXeU2ZuUiKsZyM_/view?usp=drive_link" target="_blank"
+   style="
+      display: inline-block;
+      padding: 6px 14px;
+      border: 2px solid #e03a3c;   /* white border like About Me */
+      border-radius: 50px;
+      color: #ffffff;              /* white text */
+      text-decoration: none;
+      font-size: 14px;
+       margin-top: 10px;
+      transition: 0.3s;
+   "
+   onmouseover="this.style.background='#e03a3c'; 
+                this.style.color='#ffffff'; 
+                this.style.borderColor='#e03a3c';"   /* border stays red */
+   onmouseout="this.style.background='transparent'; 
+               this.style.color='#ffffff'; 
+               this.style.borderColor='#e03a3c';"> 
+   Show Credential &#x2197;
+</a>
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+        </div>
+
+      </div>
+    
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let's connect! I am available for collaborations, questions, or professional opportunities.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-12 ">
+            <div class="row gy-4">
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Kolhapur, Maharashtra</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call</h3>
+                  <p>+91 9527269972</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email</h3>
+                  <p>shraddhasangave114@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+    
+
+
+
+	</main>
+	<footer class="footer" id="footer">
+		<div class="container copyright text-center mt-4">
+			<h5><b>© Shraddha Sangave(2025)</b></h5>
+			<h6>Thank you for visiting my portfolio. I truly appreciate your time and interest.</h6>
+		</div>
+	</footer><!-- Scroll Top -->
+	<a class="scroll-top d-flex align-items-center justify-content-center" href="#" id="scroll-top"><i class="bi bi-arrow-up-short"></i></a> 
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<!-- Main JS File -->
+	<script src="assets/js/main.js"></script>
+	<!-- Force AOS initialization for contact section -->
+	<script>
+		AOS.init({ once: true, duration: 1000 });
+		document.addEventListener('DOMContentLoaded', function() {
+			const contactSection = document.getElementById('contact');
+			if (contactSection) {
+				contactSection.style.opacity = '1';
+				contactSection.style.transform = 'none';
+			}
+		});
+	</script>
+</body>
+</html>
